@@ -153,6 +153,30 @@ src/bus.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv_sim.dir/build.make CMakeFiles/riscv_sim.dir/src/bus.cpp.s
 .PHONY : src/bus.cpp.s
 
+src/cpu.o: src/cpu.cpp.o
+.PHONY : src/cpu.o
+
+# target to build an object file
+src/cpu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv_sim.dir/build.make CMakeFiles/riscv_sim.dir/src/cpu.cpp.o
+.PHONY : src/cpu.cpp.o
+
+src/cpu.i: src/cpu.cpp.i
+.PHONY : src/cpu.i
+
+# target to preprocess a source file
+src/cpu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv_sim.dir/build.make CMakeFiles/riscv_sim.dir/src/cpu.cpp.i
+.PHONY : src/cpu.cpp.i
+
+src/cpu.s: src/cpu.cpp.s
+.PHONY : src/cpu.s
+
+# target to generate assembly for a file
+src/cpu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv_sim.dir/build.make CMakeFiles/riscv_sim.dir/src/cpu.cpp.s
+.PHONY : src/cpu.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -213,6 +237,9 @@ help:
 	@echo "... src/bus.o"
 	@echo "... src/bus.i"
 	@echo "... src/bus.s"
+	@echo "... src/cpu.o"
+	@echo "... src/cpu.i"
+	@echo "... src/cpu.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/c/Users/felip/Downloads/riscv-prj/src/bus.cpp" "CMakeFiles/riscv_sim.dir/src/bus.cpp.o" "gcc" "CMakeFiles/riscv_sim.dir/src/bus.cpp.o.d"
+  "/c/Users/felip/Downloads/riscv-prj/src/cpu.cpp" "CMakeFiles/riscv_sim.dir/src/cpu.cpp.o" "gcc" "CMakeFiles/riscv_sim.dir/src/cpu.cpp.o.d"
   "/c/Users/felip/Downloads/riscv-prj/src/main.cpp" "CMakeFiles/riscv_sim.dir/src/main.cpp.o" "gcc" "CMakeFiles/riscv_sim.dir/src/main.cpp.o.d"
   "/c/Users/felip/Downloads/riscv-prj/src/memory.cpp" "CMakeFiles/riscv_sim.dir/src/memory.cpp.o" "gcc" "CMakeFiles/riscv_sim.dir/src/memory.cpp.o.d"
   )
