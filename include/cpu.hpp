@@ -10,6 +10,10 @@ class CPU {
         uint32_t pc{0};
         Bus& bus;
     
+
+        uint32_t getBits(uint32_t value, int hi, int lo) const;
+        int32_t signExtend(uint32_t value, int bits) const;
+
     public:
         explicit CPU(Bus& b);
 
